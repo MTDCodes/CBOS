@@ -1,16 +1,15 @@
 ﻿using Discord.Commands;
 
-namespace CBOS.Services.Discord.CouchBot.Commands.Text
+namespace CBOS.Services.Discord.CouchBot.Commands.Text;
+
+public class UtilityTextCommands : ModuleBase
 {
-    public class UtilityTextCommands : ModuleBase
+    [Command("ping")]
+    public async Task PingAsync()
     {
-        [Command("ping")]
-        public async Task PingAsync()
-        {
-            await Context
-                .Channel
-                .SendMessageAsync("Pong!")
-                .ConfigureAwait(false);
-        }
+        await Context
+            .Channel
+            .SendMessageAsync("Pong!")
+            .ConfigureAwait(false);
     }
 }
