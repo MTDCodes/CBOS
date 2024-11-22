@@ -1,0 +1,6 @@
+@CBOS.Web.Api_HostAddress = http://localhost:5181
+
+GET {{CBOS.Web.Api_HostAddress}}/guild/
+Accept: application/json
+
+###

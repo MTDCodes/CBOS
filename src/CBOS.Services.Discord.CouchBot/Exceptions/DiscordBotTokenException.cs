@@ -1,6 +1,5 @@
-﻿namespace CBOS.Services.Discord.CouchBot.Exceptions
+﻿namespace CBOS.Services.Discord.CouchBot.Exceptions;
+
+public class DiscordBotTokenException : Exception
 {
-    public class DiscordBotTokenException : Exception
-    {
-    }
 }
