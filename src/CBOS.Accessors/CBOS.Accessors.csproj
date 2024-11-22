@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CBOS.Domain\CBOS.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
