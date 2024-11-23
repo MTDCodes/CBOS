@@ -1,6 +1,6 @@
 ﻿namespace CBOS.Domain.Dtos;
 
-public partial class GuildDto
+public class GuildDto
 {
     public string Id { get; set; }
 
@@ -11,6 +11,8 @@ public partial class GuildDto
     public DateTime CreatedDate { get; set; }
 
     public DateTime ModifiedDate { get; set; }
+
+    public bool Enabled { get; set; }
 
     public virtual DiscordUserDto Owner { get; set; }
 }

@@ -7,5 +7,5 @@ public interface IGuildAccessor
     Task<List<GuildDto>> ListAsync();
     Task CreateAsync(GuildDto guildDto);
     Task UpdateAsync(GuildDto guildDto);
-    Task RetrieveAsync(string guildId);
+    Task<GuildDto> RetrieveAsync(string guildId);
 }

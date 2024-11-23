@@ -47,6 +47,7 @@ public partial class CBOSContext : DbContext
             entity.Property(e => e.Createddate)
                 .HasColumnType("timestamp without time zone")
                 .HasColumnName("createddate");
+            entity.Property(e => e.Enabled).HasColumnName("enabled");
             entity.Property(e => e.Modifieddate)
                 .HasColumnType("timestamp without time zone")
                 .HasColumnName("modifieddate");
