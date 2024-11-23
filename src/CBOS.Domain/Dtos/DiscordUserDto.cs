@@ -1,6 +1,6 @@
 ﻿namespace CBOS.Domain.Dtos;
 
-public partial class DiscordUserDto
+public class DiscordUserDto
 {
     public string Id { get; set; }
 

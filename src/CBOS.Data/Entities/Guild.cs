@@ -17,5 +17,7 @@ public partial class Guild
 
     public DateTime Modifieddate { get; set; }
 
+    public bool Enabled { get; set; }
+
     public virtual Discorduser Owner { get; set; }
 }
